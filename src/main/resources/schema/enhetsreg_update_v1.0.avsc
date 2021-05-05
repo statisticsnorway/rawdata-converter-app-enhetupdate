@@ -1,0 +1,30 @@
+{
+  "name": "enhetsregUpdate",
+  "type": "record",
+  "fields": [
+    {
+      "name": "oppdateringsid",
+      "type": "int"
+    },
+    {
+      "name": "dato",
+      "type": "string",
+      "default":null
+    },
+    {
+      "name": "organisasjonsnummer",
+      "type": "string",
+      "default":null
+    },
+    {
+      "name": "endringstype",
+      "type": "string",
+      "default":"Endring"
+    },
+    {
+      "name": "_links",
+      "type": ["null", "string"],
+      "default":null
+    }
+  ]
+}
