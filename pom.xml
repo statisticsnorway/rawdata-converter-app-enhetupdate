@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>rawdata-converter-app-enhetupdate</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>Rawdata Converter App - enhetupdate</name>
 
     <properties>
@@ -21,7 +21,7 @@
         <connection>scm:git:git://github.com/statisticsnorway/rawdata-converter-app-enhetupdate.git</connection>
         <developerConnection>scm:git:git@github.com:statisticsnorway/rawdata-converter-app-enhetupdate.git</developerConnection>
         <url>https://github.com/statisticsnorway/rawdata-converter-app-enhetupdate</url>
-        <tag>0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
