@@ -13,4 +13,7 @@ public class Application extends RawdataConverterApplication {
         Micronaut.run(Application.class, args);
     }
 
+    public static String rawdataConverterCoreVersion() {
+        return MavenArtifactUtil.findArtifactVersion("no.ssb.rawdata.converter", "rawdata-converter-core").orElse("unknown");
+    }
 }
